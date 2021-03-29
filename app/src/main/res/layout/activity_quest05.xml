@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quest05"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1C4DA"
+    tools:context=".quest05">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:onClick="passarPagina10"
+        android:text="Próximo"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/perg10"
+        android:layout_width="340dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="280dp"
+        android:text="10. Você quer que o dentista veja um problema que você tem com seus dentes ou gengivas?"
+        android:textColor="#070000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/perg09"
+        android:layout_width="340dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="9. Você quer saber sobre problemas dentários que você poderá ter no futuro?"
+        android:textColor="#070000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox29"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox30"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox31"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox32"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox33"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox34"
+        app:layout_constraintTop_toBottomOf="@+id/perg09" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <CheckBox
+        android:id="@+id/checkBox37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox36"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <CheckBox
+        android:id="@+id/checkBox38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox37"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <CheckBox
+        android:id="@+id/checkBox39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox38"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <CheckBox
+        android:id="@+id/checkBox40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox39"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <CheckBox
+        android:id="@+id/checkBox41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox40"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <CheckBox
+        android:id="@+id/checkBox42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox41"
+        app:layout_constraintTop_toBottomOf="@+id/perg10" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Com certeza"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox29"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Com certeza"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox36"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:text="De jeito nenhum"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox34"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox35"
+        app:layout_constraintStart_toStartOf="@+id/checkBox35" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="De jeito nenhum"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox41"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox42"
+        app:layout_constraintStart_toStartOf="@+id/checkBox42" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Tanto faz"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox32"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox33"
+        app:layout_constraintStart_toEndOf="@+id/checkBox31" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Tanto faz"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox39"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox40"
+        app:layout_constraintStart_toEndOf="@+id/checkBox38" />
+</android.support.constraint.ConstraintLayout>

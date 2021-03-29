@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quest02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1C4DA"
+    tools:context=".quest02">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/perg04"
+        android:layout_width="340dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="250dp"
+        android:text="4. Você se sente confortável com sua saúde bucal hoje?"
+        android:textColor="#070000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/perg03"
+        android:layout_width="340dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="3. Como você se sente com relação à sua consulta com o dentista hoje?"
+        android:textColor="#070000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:onClick="passarPagina7"
+        android:text="Próximo"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji1" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton18"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji4" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton19"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji5" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton20"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji6" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton21"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji7" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji1" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton23"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji2" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton24"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji3" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton25"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji4" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton26"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji5" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton27"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji6" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton28"
+        app:layout_constraintTop_toBottomOf="@+id/perg04"
+        app:srcCompat="@drawable/emoji7" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton16"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji2" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/perg03"
+        app:srcCompat="@drawable/emoji3" />
+
+</android.support.constraint.ConstraintLayout>

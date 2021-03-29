@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "14581453582",
+    "firebase_url": "https://aplicativo-odontologia.firebaseio.com",
+    "project_id": "aplicativo-odontologia",
+    "storage_bucket": "aplicativo-odontologia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14581453582:android:73a59a6992dbccad",
+        "android_client_info": {
+          "package_name": "com.odonto.aplicativoodontologia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14581453582-s5k851l0287kp4jpj1760eg6acrg2rag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odonto.aplicativoodontologia",
+            "certificate_hash": "14753e47e2bc54ed5009ad16d58413f48be77dd0"
+          }
+        },
+        {
+          "client_id": "14581453582-19vouers09qnuh706g4i4jlbrjltn24b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXMFsC_qspeK_C9X8zvkREgBfwciH9y98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14581453582-19vouers09qnuh706g4i4jlbrjltn24b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
